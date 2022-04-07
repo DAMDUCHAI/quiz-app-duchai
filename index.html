@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   <script
+      src="https://kit.fontawesome.com/0d49bb56e3.js"
+      crossorigin="anonymous"
+    ></script>
+  <title>Exam App</title>
+</head>
+<body>
+<div class="main">
+    <i class="copy-right">Copyright by DucHai</i>
+    <h3 class="title">Quiz App</h3>
+    <div class="question">
+        <p class="question-heading">Câu hỏi <span></span></p>
+    <p class="question-content"></p>
+    </div>
+ 
+    
+    <div class="answer">
+        <p class="notice"></p>
+        <p class="notice-correct"></p>
+        <!-- ANSWER A -->
+        <div class="answer-item a" id="item-a">
+  
+            <div class="answer-select">
+                <input type="radio" name="answer-group" id="a"><span>A</span>
+
+            </div>
+<div class="answer-content">
+      <label for="a"></label>
+
+</div> 
+<i class="fas"></i>
+</div>
+<!-- ANSWER B -->
+        <div class="answer-item b" id="item-b">
+            
+            <div class="answer-select">
+                <input type="radio"   name="answer-group" id="b"><span>B</span>
+
+            </div>
+            <div class="answer-content">
+             
+                  <label for="b"></label>
+
+            </div>
+            <i class="fas"></i>
+        </div>
+<!-- ANSWER C -->
+        <div class="answer-item c" id="item-c">
+          
+            <div class="answer-select">
+                <input type="radio" name="answer-group" id="c"><span>C</span>
+            </div>
+            <div class="answer-content">
+                  <label for="c"></label>
+            </div>
+            <i class="fas"></i>
+        </div>
+<!-- ANSWER D -->
+        <div class="answer-item d" id="item-d">
+            
+            <div class="answer-select">
+                <input type="radio"  name="answer-group" id="d"><span>D</span>
+
+            </div>
+            <div class="answer-content">
+                
+                  <label for="d"></label>
+
+            </div>
+            <i class="fas"></i>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="btn-group">
+        <button class="btn-previous move"><i class='bx bxs-left-arrow'></i></button>
+        <button class="btn-submit btn">Submit</button>
+         <button class="btn-next move"><i class='bx bxs-right-arrow'></i></button>
+         <button class="btn-reload btn hide">Làm lại</button>
+
+    </div>
+ <div class="list-question-checkbox">
+     </div>
+ </div>
+</div>
+<div class="opacity hide"></div>
+<div class="modal hide">
+  <div class="modal-container">
+    <div class="modal-header">
+        <p>Kết quả</p>
+    </div>
+    <div class="modal-result"> 
+        <div class="result">
+            Kết quả bạn đạt đươc là: <span>9</span>
+           
+        </div>
+        <!-- <i>Hãy xem lại bài làm của bạn. Cảm ơn bạn đã sử dụng sản phẩm cùa chúng tôi</i> -->
+    <button class="btn-review">Review</button></div>
+  </div>
+</div>
+
+
+<script  src="./asset/app.js"></script>
+    
+</body>
+</html>
